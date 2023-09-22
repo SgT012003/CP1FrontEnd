@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Sora:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: Sora;
+    letter-spacing: 0em;
+    margin: 0;
+    padding: 0;
+}
+
+.mainboard {
+    height: 1124px;
+    background: #F2F4FD;
+}
+
+.secondaryboard {
+    height: 1124px;
+    background: linear-gradient(220.94deg, #EB3850 14.43%, #CB162E 85.28%);
+}
+
+.mainboard,
+.secondaryboard {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+ul {
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+
+li {
+    margin-right: 1rem;
+}
+
+.login {
+    color: white;
+    justify-content: left;
+}
+
+img.logo {
+    width: 2em;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+    color: #E51D37;
+    font-family: Sora;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+h2 {
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8rem;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+button {
+    color: #FFFFFF;
+    background: linear-gradient(220.94deg, #EB3850 14.43%, #CB162E 85.28%);
+    border: 0;
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 1.4rem;
+    cursor: pointer;
+}
+
+.button-row {
+    padding-top: 3rem;
+    justify-content: center;
+}
+
+.button-row>li {
+    padding-inline-start:1rem;
+}
+
+.cartões {
+    position: absolute; /* Define o posicionamento absoluto para as imagens */
+    top: 0; /* Posiciona a imagem no topo do contêiner */
+    left: 0;
+}
+
+/* Incremento a scrollbar adição */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+    background-color: #333;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: #111;
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    display: none;
+}
